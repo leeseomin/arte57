@@ -9,7 +9,7 @@ cd ..
 cd s
 for i in *.* 
 do 
-convert $i /home/min/arte57/logo/arise14.png -alpha set  -compose darken -composite ../s9/$i 
+convert $i /home/lee/arte57/logo/arise14.png -alpha set  -compose darken -composite ../s9/$i 
 done 
 cd ..
 cd s9
